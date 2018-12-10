@@ -1,0 +1,254 @@
+/* 
+
+Avalon Template 
+
+http://www.templatemo.com/tm-513-avalon
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', arial, sans-serif;
+}
+
+body {
+	overflow-x: hidden;
+	background-color: #fff;
+}
+
+ul {
+	list-style: none;
+	margin: 0px;
+}
+
+p {
+	font-size: 13px;
+	line-height: 22px;
+	color: #4a4a4a;
+}
+
+.projects {
+	margin-top: 10px;
+	padding-top: 0vh;
+	padding-bottom: 0vh;
+	text-align: center;
+	background-image: url(../img/computing3.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: left;
+}
+
+.projects .col-md-3 {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.projects .col-md-3 {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+
+.flip-container {
+  perspective: 1000;
+}
+/* turning on hover */
+
+.flip-container:hover .flipper {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -ms-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+.flip-container,
+.front,
+.back {
+  width: 100%;
+  height: 350px;
+  text-align: center;
+  font-size: 30px;
+}
+/* flipping speed here */
+
+.front {
+	padding: 40px 30px;
+}
+
+.front .icon {
+	width: 220px;
+	text-align: center;
+	background-color: transparent;
+	margin: 0px;
+}
+
+.front h4 {
+	margin-top: 0px;
+	font-size: 17px;
+	text-transform: Uppercase;
+	color: #fff;
+	font-weight: 500;
+}
+
+.flipper {
+  -webkit-transition: 0.3s all;   
+-webkit-transition-delay: 0.3s; 
+-moz-transition: 0.3s all;   
+-moz-transition-delay: 5s; 
+-ms-transition: 0.3s all;   
+-ms-transition-delay: 5s; 
+-o-transition: 0.3s all;   
+-o-transition-delay: 5s; 
+transition: 0.3s all;   
+transition-delay: 0.3s; 
+  transform-style: preserve-3d;
+  position: relative;
+}
+/* making the the other side hidden while flipping */
+
+
+.front,
+.back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* front side is in front of a back side */
+
+.front {
+  z-index: 2;
+  color: white;
+  /* for firefox 31 */
+	transform: rotateY(0deg);
+}
+/* back side */
+
+.back {
+  transform: rotateY(180deg);
+}
+
+.back p {
+  color: #fff;
+  padding: 1px 1px;
+}
+.back h4 {
+  color: #fff;
+   text-decoration: underline;
+}
+.back h6 {
+	color: #fff;
+	text-decoration: underline;
+}
+
+
+.first-project .front,
+.first-project .back {
+	background-color: rgba(14, 122, 217, 0.9);
+}
+
+
+.second-project .front,
+.second-project .back {
+	background-color: rgba(45, 14, 75, 0.9);
+}
+
+.third-project .front,
+.third-project .back {
+	background-color: rgba(255, 153, 0, 0.9);
+}
+
+.fourth-project .front,
+.fourth-project .back {
+	background-color: rgba(102, 153, 204, 0.9);
+}
+
+.fifth-project .front,
+.fifth-project .back {
+	background-color: rgba(249, 204, 158, 0.9);
+
+}
+
+.sixth-project .front,
+.sixth-project .back {
+	background-color: rgba(253, 166, 88, 0.9);
+
+
+}
+.seventh-project .front,
+.seventh-project .back {
+	background-color: rgba(51, 96, 195, 0.9);
+
+
+}
+
+.eighth-project .front,
+.eighth-project .back {
+	background-color: rgba(153, 153, 153, 0.9);
+
+}
+
+.ninth-project .front,
+.ninth-project .back {
+	background-color: rgba(121, 191, 34, 0.9);
+
+}
+
+.tenth-project .front,
+.tenth-project .back {
+	background-color: rgba(252, 137, 83, 0.9);
+
+
+}
+.eleventh-project .front,
+.eleventh-project .back {
+	background-color: rgba(196, 79, 223, 0.9);
+
+
+}
+.twelveth-project .front,
+.twelveth-project .back {
+	background-color: rgba(61, 99, 166, 0.9);
+
+}
+
+.thirteenth-project .front,
+.thirteenth-project .back {
+	background-color: rgba(59, 78, 100, 0.9);
+
+}
+.fourteenth-project .front,
+.fourteenth-project .back {
+	background-color: rgba(12, 138, 244, 0.9);
+
+}
+
+.fifteenth-project .front,
+.fifteenth-project .back {
+	background-color: rgba(62, 32, 92, 0.9);
+
+}
+
+.sixteenth-project .front,
+.sixteenth-project .back {
+	background-color: rgba(33, 146, 249, 0.9);
+
+}
+
+
+@media (max-width: 991px) {
+
+	.projects {
+		margin-left: 50px;
+		margin-right:50px;
+	}
+	
+}
+
+
+
+	
